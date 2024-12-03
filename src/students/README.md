@@ -9,4 +9,4 @@ Originally this website was meant to be used as a student, but now it has other 
 - workshop presentation slides in directory `Workshop-Slides`
 - two `*.yml` files to create conda environments (one as a student, the other for book editing)
 
-See the [workshop summary page](https://iitm-mude.github.io/2024-workshop/) for additional information.
+See the [workshop summary page](https://iitm-mude.github.io/2024-workshop/summary) for additional information.
