@@ -1,0 +1,21 @@
+# created Dec 2024 based on requirements.txt in github.com/teachbooks/template
+name: book-311
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - teachbooks
+    - jupyterbook-patches
+    - sphinx-image-inverter
+    - download_link_replacer
+    - --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
+    - sphinx-thebe ~= 0.9.9 # package on gitlab at url above; will move to github/pypi soon
